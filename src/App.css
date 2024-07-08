@@ -1,0 +1,33 @@
+.App {
+     font-family: Arial, sans-serif;
+     padding: 20px;
+   }
+   
+   .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+   }
+   
+   .nav-bar {
+     display: flex;
+     gap: 10px;
+   }
+   
+   .market-summary, .sector-performance, .markets-overview, .chart-section {
+     margin-bottom: 20px;
+   }
+   
+   .positive {
+     color: green;
+   }
+   
+   .negative {
+     color: red;
+   }
+   
+   .time-range button {
+     margin-right: 5px;
+   }
+   
